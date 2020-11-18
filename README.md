@@ -8,4 +8,4 @@ git clone https://github.com/Conjuringil/Splendid.git
 ```
 
 # Issues
-If there are any issues please dm me on discord, 𝙞𝙡.#9999, or make a issue on github.
+If there are any issues please dm me on discord, 𝙞𝙡.#9999, or make an issue on github.
