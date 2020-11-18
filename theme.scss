@@ -62,7 +62,6 @@ theme-dark,
 
 .scrollableContainer-2NUZem {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    overflow: hidden;
 }
 
 .webkit-HjD9Er .buttons-3JBrkn {
@@ -128,7 +127,6 @@ theme-dark,
 
 .wordmark-2iDDfm {
     max-width: 90vw;
-    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -394,13 +392,37 @@ theme-dark,
 }
 
 .theme-dark.authBox-hW6HRx {
-    background-color: #3A4259
+    background-color: #3A4259;
 }
 
 .canvas-3XuBXe, .fallbackImage-31Sk4m {
     display: none;
-    }
+ }
 
 .rightSplit-2US0xy {
     filter: brightness(70%);
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: #fbfbfb;
+}
+
+.h5-18_1nd {
+    color: #fbfbfb;
+}
+
+.needAccount-23l_Wh {
+    color: #fbfbfb;
+}
+
+.subText-1XkjIB {
+    color: #fbfbfb;
+}
+
+.content-1LAB8Z {
+    background-color: #3A4259;
+}
+
+.wrapper-1P_m9K svg {
+    background-color: #3A4259;
 }
