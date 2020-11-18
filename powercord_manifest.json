@@ -6,5 +6,5 @@
 	"theme": "theme.scss",
 	"consent": "false",
 	"splashTheme": "splash.css",
-	"license": "unknown"
+	"license": "MIT"
 }
