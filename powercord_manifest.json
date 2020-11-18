@@ -1,0 +1,10 @@
+﻿{
+	"name": "Splendid",
+	"description": "Splendid",
+	"version": "1.0.0",
+	"author": "𝙞𝙡.#9999",
+	"theme": "theme.scss",
+	"consent": "false",
+	"splashTheme": "splash.css",
+	"license": "unknown"
+}

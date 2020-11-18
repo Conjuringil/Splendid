@@ -1,0 +1,21 @@
+#splash {
+    background: #3A4259;
+}
+
+.progress .progress-bar {
+    background-color: #ffffff;
+}
+
+    .progress .progress-bar .complete {
+        background-color: #3A4259;
+    }
+
+#splash .splash-inner-dl .dl-select-frame .Select-control {
+    background: #3A4259;
+    border-color: #3A4259;
+}
+
+#splash .splash-inner-dl .dl-select-frame .Select-menu-outer {
+    background: #3A4259;
+    border-color: #3A4259;
+}
