@@ -343,10 +343,6 @@ theme-dark,
     background-color: #7289DA
 }
 
-.theme-dark .root-1gCeng {
-    background-color: #3A4259
-}
-
 .theme-dark .message-2qRu38 {
     background-color: #3A4259
 }
@@ -519,4 +515,14 @@ theme-dark,
 
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background-color: #292F40 !important;
+}
+
+.focusLock-Ns3yie, .root-1gCeng {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.theme-dark .root-1gCeng {
+    background: transparent !important;
+    background-color: transparent !important;
 }
