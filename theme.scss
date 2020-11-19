@@ -44,7 +44,7 @@ theme-dark,
     --bubble-arrow-size: 5px;
 }
 
-.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty){
     background-color: var(--bubble-color);
     display: inline-block;
     max-width: 100%;
@@ -76,7 +76,6 @@ theme-dark,
 
 .theme-dark .container-3ayLPN {
     background-color: #3A4259;
-    gradient: none;
 }
 
 /* Compressed Search Bar */
@@ -525,4 +524,12 @@ theme-dark,
 .theme-dark .root-1gCeng {
     background: transparent !important;
     background-color: transparent !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: #292F40 !important;
+}
+
+.colorHeaderPrimary-26Jzh- {
+    color: white;
 }
