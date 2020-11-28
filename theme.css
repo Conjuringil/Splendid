@@ -156,10 +156,6 @@ theme-dark,
     color: #7289DA;
 }
 
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-3baos1 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:nth-child(1) > div > svg > polygon {
-    fill: var(--interactive-muted) !important;
-}
-
 .wrapper-2aW0bm {
     border-radius: 20px !important;
 }
@@ -205,16 +201,6 @@ theme-dark,
     display: none;
 }
 
-.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
-}
-
-.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
-    z-index: 1;
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
-}
-
 .theme-dark .headerNormal-T_seeN {
     background-color: #3A4259;
 }
@@ -238,7 +224,7 @@ theme-dark,
 }
 
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-    background-color: #292F40;
+    background-color: #32394D;
 }
 
 .theme-dark .popout-38lTFE {
@@ -292,17 +278,17 @@ theme-dark,
     background: var(--background-tertiary);
 }
 
-.optionContainer-15srkc:hover {
-    background: var(--background-floating);
-}
+    .optionContainer-15srkc:hover {
+        background: #7289DA;
+    }
 
 .card-1yV8cG {
     background-color: var(--background-secondary);
 }
 
-.card-1yV8cG:hover {
-    background-color: var(--background-tertiary);
-}
+    .card-1yV8cG:hover {
+        background-color: #7289DA;
+    }
 
 .theme-dark .notches-1sAcEM.gray-3_LNYR {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23141414'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
@@ -319,12 +305,6 @@ theme-dark,
 
 .selected-aXhQR6 .layout-2DM8Md {
     background-color: #3A4259;
-}
-
-.layout-2DM8Md {
-    height: 42px;
-    padding: 0 8px;
-    width: 500px;
 }
 
 .channel-2QD9_O {
@@ -426,9 +406,9 @@ theme-dark,
     background-color: #292F40;
 }
 
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
-    background-color: #292F40;
-}
+    .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+        background-color: #7289DA;
+    }
 
 .videoFrame-3JeHRb, .videoWrapper-3VC0Ax {
     background-color: #3A4259;
@@ -501,11 +481,11 @@ theme-dark,
 }
 
 .theme-dark .summaryInfo-2QFKUg:hover {
-    background-color: #292F40;
+    background-color: #7289DA;
 }
 
 .theme-dark .card-FDVird:before:hover {
-    background-color: #292F40 !important;
+    background-color: #7289DA !important;
 }
 
 .theme-dark .card-FDVird:before {
@@ -533,3 +513,72 @@ theme-dark,
 .colorHeaderPrimary-26Jzh- {
     color: white;
 }
+
+.button-3HqqDX {
+    background-color: #292F40 !important;
+}
+
+    .button-3HqqDX:hover {
+        background-color: #7289DA !important;
+    }
+
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
+    background-color: #7289DA;
+}
+
+.theme-dark .enabled-1t_Gxm:hover {
+    background-color: #7289DA;
+}
+
+.theme-dark .enabled-1t_Gxm:hover {
+    background-color: #7289DA;
+}
+
+.css-3vaxre-menu {
+    background-color: #3A4259 !important;
+}
+
+css-3vaxre-menu:hover {
+    background-color: #7289DA !important;
+}
+
+.theme-dark .invite-18yqGF {
+    background: #292F40;
+    border-color: #3A4259;
+}
+
+.headerPlaying-j0WQBV {
+    background: #3A4259;
+}
+
+.headerSpotify-zpWxgT {
+    background: #3A4259;
+}
+
+.input-2VB9rf {
+    background: #3A4259;
+}
+
+
+.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 {
+    background: #7289DA !important;
+    box-shadow: 0px 4px 0px #46599c;
+}
+
+.activityUserPopout-2yItg2 {
+    border-radius: 5px;
+    margin: 0 8px 15px 8px;
+    padding: 10px;
+}
+
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 {
+    background: #1DB954 !important;
+    box-shadow: 0px 4px 0px #11923e;
+}
+
+.activityUserPopout-2yItg2 {
+    border-radius: 5px;
+    margin: 0 8px 15px 8px;
+    padding: 10px;
+}
+
