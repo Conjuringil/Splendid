@@ -1,5 +1,5 @@
 # Splendid
-A theme for powercord.
+A theme for powercord and betterdiscord.
 
 # How to use
 Simply just clone the repo in your themes folder, /powercord/src/Powercord/themes, after that just apply it.
