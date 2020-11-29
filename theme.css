@@ -582,3 +582,25 @@ css-3vaxre-menu:hover {
     padding: 10px;
 }
 
+.header-1TKi98 {
+    background-color: #3A4259
+}
+
+.root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X {
+    background: #3A4259 !important;
+}
+
+.activityProfile-2bJRaP {
+    border-radius: 5px;
+    margin: 0 13px 13px 13px;
+}
+
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP {
+    background: #7289DA !important;
+    box-shadow: 0px 4px 0px #46599c;
+}
+
+.activityProfile-2bJRaP {
+    background: #1DB954 !important;
+    box-shadow: 0px 4px 0px #11923e;
+}
