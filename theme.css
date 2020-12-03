@@ -65,7 +65,7 @@ theme-dark,
 }
 
 .webkit-HjD9Er .buttons-3JBrkn {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track,
@@ -426,10 +426,6 @@ theme-dark,
     background-color: #32394D !important;
 }
 
-.focusLock-Ns3yie, .root-1gCeng {
-    background-color: #3A4259 !important;
-}
-
 .regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB {
     background-color: #3A4259 !important;
 }
@@ -542,12 +538,12 @@ theme-dark,
 
 .headerPlaying-j0WQBV > .activityUserPopout-2yItg2 {
     background: #7289DA !important;
-    box-shadow: 0px 4px 0px #46599c;
+    box-shadow: 0 4px 0 #46599c;
 }
 
 .headerSpotify-zpWxgT > .activityUserPopout-2yItg2 {
     background: #1DB954 !important;
-    box-shadow: 0px 4px 0px #11923e;
+    box-shadow: 0 4px 0 #11923e;
 }
 
 .activityUserPopout-2yItg2 {
@@ -566,15 +562,12 @@ theme-dark,
 
 .activityProfile-2bJRaP {
     border-radius: 5px;
-    margin: 0 13px 13px 13px;
+    margin: 0 13px 13px;
+    background: #1DB954 !important;
+    box-shadow: 0 4px 0 #11923e;
 }
 
 .topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP {
     background: #7289DA !important;
-    box-shadow: 0px 4px 0px #46599c;
-}
-
-.activityProfile-2bJRaP {
-    background: #1DB954 !important;
-    box-shadow: 0px 4px 0px #11923e;
+    box-shadow: 0 4px 0 #46599c;
 }
