@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/conjuringil/splendid/badge)](https://www.codefactor.io/repository/github/conjuringil/splendid)
 # Splendid
 A theme for powercord and betterdiscord.
 
