@@ -1,0 +1,573 @@
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+
+
+theme-dark,
+.theme-light,
+:root {
+    --background-primary: #3A4259 !important;
+    --background-secondary: #32394D !important;
+    --background-secondary-alt: #292F40 !important;
+    --background-tertiary: #292F40 !important;
+    --background-accent: rgba(49, 55, 75, 0.5) !important;
+    --background-floating: #30374A !important;
+    --background-modifier-hover: #30374A !important;
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(62, 61, 90, 0.35) !important;
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-accent) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #BCC2D5 !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #fbfbfb !important;
+    --interactive-normal: #CFD5E6 !important;
+    --interactive-hover: #7289DA !important;
+    --interactive-active: #7289DA !important;
+    --interactive-muted: #7289DA !important;
+    --header-secondary: #636194 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+    --offline-color: #444444 !important;
+    --text-muted: #817eb3 !important;
+    --interactive-normal: #CFD5E6 !important;
+    --interactive-active: #7289DA !important;
+}
+
+:root {
+    --bubble-color: var(--background-tertiary);
+    --bubble-padding: 5px 8px;
+    --bubble-arrow-size: 5px;
+}
+
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty){
+    background-color: var(--bubble-color);
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    padding: var(--bubble-padding);
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+}
+
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j blockquote,
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j pre {
+    max-width: unset;
+}
+
+.scrollableContainer-2NUZem {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.webkit-HjD9Er .buttons-3JBrkn {
+    margin-right: 0;
+}
+
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track,
+.auto-Ge5KZx::-webkit-scrollbar-track,
+.addGamePopout-2RY8Ju {
+    background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: #3A4259;
+}
+
+/* Compressed Search Bar */
+.search-2oPWTC .searchBar-3dMhjb {
+    width: 30px;
+    transition-duration: 300ms;
+}
+
+.search-2oPWTC .searchBar-3dMhjb:hover {
+    width: 200px;
+}
+
+.search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
+    width: 244px !important;
+}
+
+.search-2oPWTC .icon-38sknP {
+    cursor: pointer;
+}
+
+.theme-dark .uploadModal-2ifh8j  {
+    background-color: #3A4259;
+}
+
+.theme-dark .footer-3mqk7D {
+    background-color: #3A4259;
+}
+
+.theme-dark .option-96V44q:after {
+    display: none;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: #32394D;
+}
+
+.wordmark-2iDDfm:after {
+    content: "Splendid";
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: "Discord";
+}
+
+.wordmark-2iDDfm svg {
+    display: none;
+}
+
+.wordmark-2iDDfm {
+    max-width: 90vw;
+    text-overflow: ellipsis;
+}
+
+.separator-2I32lJ, .description-2L932D {
+    display: none;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.phoneFieldScroller-2IJUdK::-webkit-scrollbar-thumb,
+.infoScroller-3EYYns::-webkit-scrollbar-thumb,
+.listScroller-2_vlfo::-webkit-scrollbar-thumb,
+.CodeMirror-vscrollbar::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
+.sidebarRegionScroller-3MXcoP::-webkit-scrollbar-thumb,
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb,
+.scrollerBase-289Jih::-webkit-scrollbar-thumb,
+.scroller-1IfWg_::-webkit-scrollbar-thumb,
+.scroller-2wx7Hm::-webkit-scrollbar-thumb,
+.popout-2sKjHu::-webkit-scrollbar-thumb,
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: var(--background-secondary-alt) !important;
+    border-color: transparent !important;
+}
+
+.strikethrough-1n4ekb {
+    color: #7289DA;
+}
+
+.wrapper-2aW0bm {
+    border-radius: 20px !important;
+}
+
+.botTag-2WPJ74 {
+    border-radius: 20px !important;
+}
+
+.invite-18yqGF {
+    border-radius: 24px;
+}
+
+.wrapper-39oAo3 {
+    border-radius: 24px
+}
+
+.channel-2PJTLY, .channelContainer-1x3D6I, .css-17mfgdg-container {
+    border-radius: 24px
+}
+
+.listRow-hutiT_, .rowInner-1vvRiF {
+    border-radius: 24px
+}
+
+.container-VSDcQc .header-2bNvm4 {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px
+}
+
+.autocompleteShadow-iiGWFU {
+    border-radius: 24px
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #3A4259;
+}
+
+.theme-dark .focused-2bY0OD {
+    background-color: #3A4259;
+}
+
+.queryShortcut-hJIQMF {
+    display: none;
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: #3A4259;
+}
+
+.theme-dark .everyonePopout-nEbJY3 {
+    background-color: #3A4259;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(28,36,43,.6);
+    box-shadow: 0 2px 10px 0 rgba(28,36,43,.6);
+}
+
+.theme-dark .footer-2aTx0s {
+    background-color: #32394D;
+}
+
+.peopleColumn-29fq28 {
+    background-color: #3A4259;
+}
+
+.section-2gLsgF {
+    background-color: #32394D;
+}
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: #32394D;
+}
+
+.theme-dark .popout-38lTFE {
+    background-color: #32394D;
+}
+
+.powercord-spotify .spotify-buttons button {
+    display: none;
+}
+
+.hoverRoll-YK53gQ {
+    display: none;
+}
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+    background-color: #32394D;
+}
+
+.theme-dark .bar-2Qqk5Z {
+    background-color: #32394D;
+}
+
+.theme-dark .paymentPane-3bwJ6A {
+    background-color: #32394D;
+    color: #f6f6f7;
+}
+
+.theme-dark .paginator-166-09 {
+    background-color: #32394D;
+}
+
+.theme-dark .bottomDivider-1K9Gao {
+    background-color: #32394D;
+}
+
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--background-secondary);
+    border-color: var(--background-tertiary);
+}
+
+.optionContainer-15srkc {
+    background: var(--background-tertiary);
+}
+
+    .optionContainer-15srkc:hover {
+        background: #7289DA;
+    }
+
+.card-1yV8cG {
+    background-color: var(--background-secondary);
+}
+
+    .card-1yV8cG:hover {
+        background-color: #7289DA;
+    }
+
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23141414'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+}
+
+.theme-dark .progress-1IcQ3A {
+    background-color: var(--background-accent);
+}
+
+.quickswitcher-3JagVE {
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 0 0 1px var(--background-tertiary);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 0 0 1px var(--background-tertiary);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: #3A4259;
+}
+
+.channel-2QD9_O {
+    position: relative;
+    max-width: 500px;
+    margin-left: 8px;
+    width: 500px;
+}
+
+.circleIconButton-jET_ig {
+    color: #7289DA;
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: #7289DA
+}
+
+.theme-dark .message-2qRu38 {
+    background-color: #3A4259
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: #32394D
+}
+
+.theme-dark .autocomplete-1vrmpx {
+    background-color: #3A4259;
+}
+
+.theme-dark .selected-1Tbx07 {
+    background-color: #30374A;
+}
+
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: #30374A;
+}
+
+.theme-dark .contentWrapper-3WC1ID {
+    background-color: #30374A;
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: #3A4259
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: #7289DA
+}
+
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+    background-color: #3A4259
+}
+
+#popout_8729 > div > div > section > canvas {
+    display: none;
+ }
+
+.theme-dark .container-2x5lvQ section {
+    background-color: #3A4259
+}
+
+.theme-dark.authBox-hW6HRx {
+    background-color: #3A4259;
+}
+
+.canvas-3XuBXe, .fallbackImage-31Sk4m {
+    display: none;
+ }
+
+.rightSplit-2US0xy {
+    filter: brightness(70%);
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+    color: #fbfbfb;
+}
+
+.h5-18_1nd {
+    color: #fbfbfb;
+}
+
+.needAccount-23l_Wh {
+    color: #fbfbfb;
+}
+
+.subText-1XkjIB {
+    color: #fbfbfb;
+}
+
+.content-1LAB8Z {
+    background-color: #3A4259;
+}
+
+.wrapper-1P_m9K svg {
+    background-color: #3A4259;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: #292F40;
+}
+
+    .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+        background-color: #7289DA;
+    }
+
+.videoFrame-3JeHRb, .videoWrapper-3VC0Ax {
+    background-color: #3A4259;
+}
+
+.previewWrapper-39cUHY {
+    background-color: #3A4259;
+}
+
+.body-Ogsp8i {
+    background-color: #3A4259;
+}
+
+.button-1YfofB.buttonColor-7qQbGO {
+    background-color: #32394D;
+}
+
+.tileChild-31WXi8 {
+    background-color: #32394D;
+}
+
+.theme-dark .perksModal-fSYqOq {
+    background-color: #32394D !important;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB {
+    background-color: #3A4259 !important;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background-color: #32394D !important;
+    border: 0;
+    border-radius: 0;
+}
+
+.topic-TCb_qw {
+    color: white;
+}
+
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: #32394D !important;
+}
+
+.theme-dark .keybindShortcut-1BD6Z1 span {
+    background-color: #292F40 !important;
+}
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background: #292F40;
+}
+
+.description-3_Ncsb, .labelDescriptor-1PqHgD {
+    color: white;
+}
+
+.colorMuted-HdFt4q {
+    color: white;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+    background: #292F40;
+}
+
+.theme-dark .summaryInfo-2QFKUg:hover {
+    background-color: #7289DA;
+}
+
+.theme-dark .card-FDVird:before:hover {
+    background-color: #7289DA !important;
+}
+
+.theme-dark .card-FDVird:before {
+    background-color: #292F40 !important;
+}
+
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+    background-color: #292F40 !important;
+}
+
+.focusLock-Ns3yie, .root-1gCeng {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.theme-dark .root-1gCeng {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.colorHeaderPrimary-26Jzh- {
+    color: white;
+}
+
+.button-3HqqDX {
+    background-color: #292F40 !important;
+}
+
+    .button-3HqqDX:hover {
+        background-color: #7289DA !important;
+    }
+
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
+    background-color: #7289DA;
+}
+
+.theme-dark .enabled-1t_Gxm:hover {
+    background-color: #7289DA;
+}
+
+.css-3vaxre-menu {
+    background-color: #3A4259 !important;
+}
+
+.css-3vaxre-menu:hover {
+    background-color: #7289DA !important;
+}
+
+.theme-dark .invite-18yqGF {
+    background: #292F40;
+    border-color: #3A4259;
+}
+
+.headerPlaying-j0WQBV {
+    background: #3A4259;
+}
+
+.headerSpotify-zpWxgT {
+    background: #3A4259;
+}
+
+.input-2VB9rf {
+    background: #3A4259;
+}
+
+
+.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 {
+    background: #7289DA !important;
+    box-shadow: 0 4px 0 #46599c;
+}
+
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 {
+    background: #1DB954 !important;
+    box-shadow: 0 4px 0 #11923e;
+}
+
+.activityUserPopout-2yItg2 {
+    border-radius: 5px;
+    margin: 0 8px 15px;
+    padding: 10px;
+}
+
+.header-1TKi98 {
+    background-color: #3A4259
+}
+
+.root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X {
+    background: #3A4259 !important;
+}
+
+.activityProfile-2bJRaP {
+    border-radius: 5px;
+    margin: 0 13px 13px;
+    background: #1DB954 !important;
+    box-shadow: 0 4px 0 #11923e;
+}
+
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP {
+    background: #7289DA !important;
+    box-shadow: 0 4px 0 #46599c;
+}
