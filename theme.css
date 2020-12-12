@@ -12,7 +12,7 @@ theme-dark,
     --background-floating: #30374A !important;
     --background-modifier-hover: #30374A !important;
     --background-modifier-active: rgba(255,255,255,0.03) !important;
-    --background-modifier-selected: rgba(62, 61, 90, 0.35) !important;
+    --background-modifier-selected: rgba(95, 137, 221, 0.1) !important;
     --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
     --channeltextarea-background: var(--background-accent) !important;
     --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
@@ -342,7 +342,7 @@ theme-dark,
     background-color: #3A4259
 }
 
-.lookFilled-1Gx00P.colorGrey-2DXtkV {
+.lookFilled-1Gx00P.colorGrey-2DXtkV, .lookFilled-1Gx00P.colorGrey-2DXtkV:hover  {
     background-color: #7289DA
 }
 
@@ -398,9 +398,9 @@ theme-dark,
     background-color: #292F40;
 }
 
-    .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
         background-color: #7289DA;
-    }
+}
 
 .videoFrame-3JeHRb, .videoWrapper-3VC0Ax {
     background-color: #3A4259;
@@ -570,4 +570,16 @@ theme-dark,
 .topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP {
     background: #7289DA !important;
     box-shadow: 0 4px 0 #46599c;
+}
+
+.powercord-spotify .spotify-seek-bar-progress {
+  background-color: #7289DA;
+}
+
+.theme-dark .elevationHigh-1PneE4 {
+  background-color: #32394D !important;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: #7289DA;
 }
